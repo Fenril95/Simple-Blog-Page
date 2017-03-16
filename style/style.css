@@ -1,0 +1,615 @@
+.btnDefault {
+  text-align: center;
+}
+.btnDefault a {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  background-color: #3eb3a5;
+  padding: 16px 20px;
+  font: 18px 'Rockwell-Bold';
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 6px;
+}
+.btnDefault a:hover {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  color: #3eb3a5;
+  background-color: #ebebeb;
+  box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+}
+body {
+  min-width: 320px;
+  font-family: 'Rockwell';
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.wrapperCont {
+  width: 940px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+h3,
+h4,
+p {
+  margin: 0;
+}
+article {
+  zoom: 1;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px dashed #d7d7d7;
+  padding-top: 34px;
+}
+article:before,
+article:after {
+  content: "";
+  display: table;
+}
+article:after {
+  clear: both;
+}
+article .date {
+  float: left;
+  position: relative;
+  display: inline-block;
+  border: 7px solid #eee;
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+  background-color: #fff;
+  z-index: 9999;
+}
+article .date h3 {
+  margin-top: 38px;
+  margin-left: 13px;
+  color: #3eb3a5;
+  font: 30px/30px 'Rockwell-Bold';
+}
+article .mainContent {
+  display: inline-block;
+  width: 86%;
+}
+article .mainContent .social {
+  zoom: 1;
+  color: #3eb3a5;
+  display: inline-block;
+  font: 14px 'Rockwell';
+  margin-left: 13px;
+  margin-top: 35px;
+}
+article .mainContent .social:before,
+article .mainContent .social:after {
+  content: "";
+  display: table;
+}
+article .mainContent .social:after {
+  clear: both;
+}
+article .mainContent .social a {
+  font: 14px 'Rockwell';
+  color: #3eb3a5;
+}
+article .mainContent .social h4 {
+  letter-spacing: 2px;
+  display: inline;
+}
+article .mainContent .social .tags {
+  padding-right: 10px;
+  border-right: 1px solid #ebebeb;
+}
+article .mainContent .social .fa.fa-heart {
+  margin-left: 10px;
+  font-size: 14px;
+}
+article .mainContent .social .likes {
+  margin-left: 2px;
+}
+article .mainContent .social h3 {
+  font: 14px 'Rockwell';
+  display: inline-block;
+  padding-right: 18px;
+  border-right: 1px solid #ebebeb;
+}
+article .mainContent .social .fa.fa-comment {
+  margin-left: 12px;
+  margin-right: 8px;
+}
+article .mainContent .social p {
+  display: inline;
+}
+article .mainContent .dateLine {
+  position: absolute;
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background-color: #eee;
+  top: 94px;
+  left: 0;
+}
+header {
+  text-align: center;
+  width: 100%;
+}
+header #headerBackground {
+  background: #000000 url(../img/headerBack.png) no-repeat center center;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+header .menu {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+header .menu nav {
+  width: 740px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+header .menu nav ul {
+  zoom: 1;
+  margin: 0;
+  padding: 15px 0;
+}
+header .menu nav ul:before,
+header .menu nav ul:after {
+  content: "";
+  display: table;
+}
+header .menu nav ul:after {
+  clear: both;
+}
+header .menu nav ul li {
+  float: left;
+}
+header .menu nav ul li a {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  color: #bcbcbc;
+  font: 24px 'Rockwell-Bold';
+  display: inline-block;
+  padding: 14px 0;
+  margin: 0 25px;
+  text-transform: capitalize;
+  text-align: justify;
+  border-bottom: 6px solid #fff;
+}
+header .menu nav ul li a:hover {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  border-bottom: 6px solid #bcbcbc;
+}
+header .menu nav ul li:nth-child(3) {
+  margin-left: 26.4%;
+}
+header .menu .logo {
+  position: absolute;
+  bottom: -54px;
+  right: 42%;
+}
+header .menu .logo img {
+  border: 7px solid #fff;
+  border-radius: 50%;
+  height: auto;
+}
+header .headLine {
+  background-color: #dfdfdf;
+  height: 2px;
+  width: 100%;
+}
+header .welcome {
+  display: inline-block;
+  margin-right: 54px;
+}
+header .welcome h3 {
+  color: #a0a0a0;
+  margin: 100px 0 10px;
+  font: 18px 'Rockwell';
+}
+header .welcome .welcomeLine {
+  display: block;
+  height: 1px;
+  width: 32px;
+  background-color: #b7b7b7;
+  margin: 0 auto;
+}
+header .welcome .welcomeLine:last-child {
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+footer h3 {
+  font: 18px 'Rockwell';
+  color: #aeaeae;
+}
+footer h3 span {
+  color: #3eb3a5;
+  font: 18px 'Rockwell-Bold';
+}
+#index {
+  width: 100%;
+}
+#index article .mainContent .articleText {
+  margin-top: 13px;
+  margin-left: 13px;
+  display: inline-block;
+}
+#index article .mainContent .articleText .title {
+  font: 30px 'Rockwell-Bold';
+  color: #272727;
+  display: inline-block;
+  text-transform: capitalize;
+}
+#index article .mainContent .articleText p {
+  margin: 18px 0;
+  height: 100px;
+  overflow-y: hidden;
+  font: 16px/24px 'Rockwell';
+  color: #8e8e8e;
+}
+#index article .mainContent .articleText .more {
+  color: #3eb3a5;
+  font: 16px 'Rockwell-Bold';
+  text-transform: capitalize;
+  padding: 4px;
+  padding-left: 0;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+#index #btn {
+  text-align: center;
+  margin-top: 50px;
+}
+#index #btn a {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  background-color: #3eb3a5;
+  padding: 16px 20px;
+  font: 18px 'Rockwell-Bold';
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 6px;
+}
+#index #btn a:hover {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  color: #3eb3a5;
+  background-color: #ebebeb;
+  box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+}
+#index footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+#index footer h3 {
+  font: 18px 'Rockwell';
+  color: #aeaeae;
+}
+#index footer h3 span {
+  color: #3eb3a5;
+  font: 18px 'Rockwell-Bold';
+}
+#single {
+  width: 100%;
+}
+#single article {
+  border-bottom: none;
+}
+#single article .mainContent .singleText {
+  margin-top: 13px;
+  margin-left: 13px;
+  display: inline-block;
+}
+#single article .mainContent .singleText h3 {
+  font: 30px 'Rockwell-Bold';
+  color: #272727;
+  display: inline-block;
+  text-transform: capitalize;
+}
+#single article .mainContent .singleText p {
+  margin: 25px 0;
+  font: 16px/24px 'Rockwell';
+  color: #8e8e8e;
+}
+#single article .mainContent .singleText img {
+  width: 95%;
+  height: auto;
+}
+#single article .mainContent .singleText .tags {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#single article .mainContent .singleText .tags h3 {
+  margin-right: 5px;
+  font: 18px 'Rockwell-Bold';
+  text-transform: uppercase;
+}
+#single article .mainContent .singleText .tags a {
+  font: 16px 'Rockwell';
+  color: #3eb3a5;
+}
+#single #passing .container {
+  padding: 28px 0 22px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 2px solid #e6e6e6;
+  box-sizing: border-box;
+  zoom: 1;
+  width: 100%;
+}
+#single #passing .container:before,
+#single #passing .container:after {
+  content: "";
+  display: table;
+}
+#single #passing .container:after {
+  clear: both;
+}
+#single #passing .container .comments {
+  float: left;
+  font: 24px 'Rockwell-Bold';
+  margin-top: 10px;
+}
+#single #passing .container .comments h3 {
+  text-transform: capitalize;
+  display: inline-block;
+}
+#single #passing .container #passingBtn {
+  text-align: center;
+  float: right;
+}
+#single #passing .container #passingBtn a {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  background-color: #3eb3a5;
+  padding: 16px 20px;
+  font: 18px 'Rockwell-Bold';
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 6px;
+}
+#single #passing .container #passingBtn a:hover {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  color: #3eb3a5;
+  background-color: #ebebeb;
+  box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+}
+#forms {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 2px solid #e6e6e6;
+}
+#forms h3 {
+  font: 24px 'Rockwell-Bold';
+  text-transform: capitalize;
+}
+#forms .formsGeneral form .name,
+#forms .formsGeneral form .email {
+  margin-top: 40px;
+  padding: 0 15px;
+  font: 16px 'Rockwell';
+  display: inline-block;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  width: 160px;
+  height: 50px;
+}
+#forms .formsGeneral form .name {
+  margin-right: 20px;
+}
+#forms .formsGeneral form textarea {
+  padding: 15px;
+  background-color: #ebebeb;
+  display: block;
+  margin: 20px auto;
+  height: 160px;
+  width: 370px;
+  font: 16px 'Rockwell';
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  resize: none;
+}
+#forms .formsGeneral form .subBtn {
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #3eb3a5;
+  font: 16px 'Rockwell-Bold';
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  height: 50px;
+  width: 400px;
+}
+#comments {
+  zoom: 1;
+  padding: 40px 0 60px;
+}
+#comments:before,
+#comments:after {
+  content: "";
+  display: table;
+}
+#comments:after {
+  clear: both;
+}
+#comments .authorImg {
+  height: 115px;
+  width: 115px;
+  float: left;
+  border-radius: 50%;
+  background-color: #ebebeb;
+}
+#comments .authorComment {
+  margin-left: 15px;
+  display: inline-block;
+  width: 70%;
+}
+#comments .authorComment h3 {
+  margin-top: 40px;
+  font: 24px 'Rockwell-Bold';
+  color: #3eb3a5;
+  text-transform: capitalize;
+}
+#comments .authorComment p {
+  padding: 12px;
+  margin-top: 20px;
+  font: 16px/24px 'Rockwell';
+  background-color: #ebebeb;
+  border-radius: 6px;
+}
+#comments .authorComment a {
+  color: #3eb3a5;
+  font: 16px 'Rockwell';
+  margin-top: 15px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+#comments .commentBtn {
+  margin-top: 40px;
+  text-align: center;
+}
+#comments .commentBtn a {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  background-color: #3eb3a5;
+  padding: 16px 20px;
+  font: 18px 'Rockwell-Bold';
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 6px;
+}
+#comments .commentBtn a:hover {
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  color: #3eb3a5;
+  background-color: #ebebeb;
+  box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 940px) {
+  #single #passing .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 871px) {
+  article .mainContent {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 732px) {
+  header .menu nav ul {
+    display: inline-block;
+  }
+  header .menu nav ul li:nth-child(3) {
+    margin-left: 0;
+  }
+  header .menu .logo {
+    display: none;
+  }
+  header .welcome {
+    margin-right: 0;
+  }
+  #comments .authorComment {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 539px) {
+  header .menu nav ul li {
+    float: none;
+  }
+  article .mainContent .social h3,
+  article .mainContent .social p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 519px) {
+  #single #comments .singleComment {
+    text-align: center;
+  }
+  #single #comments .singleComment .authorImg {
+    display: inline-block;
+    float: none;
+  }
+  #single #comments .singleComment .authorComment a {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 487px) {
+  article {
+    text-align: center;
+  }
+  article .date {
+    float: none;
+  }
+  article .date h3 {
+    margin-left: 0;
+  }
+  article .mainContent .social {
+    line-height: 20px;
+  }
+  article .mainContent .dateLine {
+    display: none;
+  }
+  #index article .mainContent .articleText p {
+    height: 240px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  #single #passing .passingCont .comments {
+    font-size: 18px;
+  }
+  #single #passing .passingCont #passingBtn a {
+    font-size: 16px;
+  }
+  #single #forms .formsGeneral form .name {
+    margin-right: 0;
+    width: 80%;
+  }
+  #single #forms .formsGeneral form .email {
+    margin-top: 20px;
+    width: 80%;
+  }
+  #single #forms .formsGeneral form .textarea {
+    width: 80%;
+  }
+  #single #forms .formsGeneral form .subBtn {
+    width: 90%;
+  }
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
